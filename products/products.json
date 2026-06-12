@@ -1,0 +1,205 @@
+[
+  {
+    "name": "iPhone X",
+    "category": "mobile",
+    "price": 29999,
+    "image": "/images/mobiles/mobile1.jpeg",
+    "description": "Apple iPhone X with Face ID and OLED display."
+  },
+  {
+    "name": "iPhone XS",
+    "category": "mobile",
+    "price": 32999,
+    "image": "/images/mobiles/mobile2.jpeg",
+    "description": "Apple iPhone XS with improved camera and A12 Bionic chip."
+  },
+  {
+    "name": "iPhone 11 (White)",
+    "category": "mobile",
+    "price": 39999,
+    "image": "/images/mobiles/mobile3.jpeg",
+    "description": "Apple iPhone 11 in white color with dual camera system."
+  },
+  {
+    "name": "iPhone XR",
+    "category": "mobile",
+    "price": 27999,
+    "image": "/images/mobiles/mobile4.jpeg",
+    "description": "Apple iPhone XR with Liquid Retina display."
+  },
+  
+
+  {
+    "name": "Smartron t.book T1211",
+    "category": "laptop",
+    "price": 24999,
+    "image": "/images/laptops/laptop1.jpeg",
+    "description": "Hybrid laptop-tablet with detachable design."
+  },
+  {
+    "name": "HP Spectre x2",
+    "category": "laptop",
+    "price": 89999,
+    "image": "/images/laptops/laptop2.jpeg",
+    "description": "Premium detachable 2-in-1 laptop from HP."
+  },
+  {
+    "name": "Dell Inspiron 15 (5000)",
+    "category": "laptop",
+    "price": 58999,
+    "image": "/images/laptops/laptop3.jpeg",
+    "description": "Reliable everyday laptop with Intel i5 processor."
+  },
+  {
+    "name": "Dell XPS 13 (9360)",
+    "category": "laptop",
+    "price": 109999,
+    "image": "/images/laptops/laptop4.jpeg",
+    "description": "Ultra-premium Dell XPS 13 with InfinityEdge display."
+  },
+
+  {
+    "name": "Apple iMac 21.5-inch (A1418)",
+    "category": "monitor",
+    "price": 89999,
+    "image": "/images/monitor/monitor1.jpeg",
+    "description": "Apple iMac with 21.5-inch display for creative work."
+  },
+  {
+    "name": "Apple iMac 24-inch M1 (2021)",
+    "category": "monitor",
+    "price": 129999,
+    "image": "/images/monitor/monitor2.jpeg",
+    "description": "Modern iMac with M1 chip and 4.5K Retina display."
+  },
+  {
+    "name": "Apple iMac 24-inch M3 (2023)",
+    "category": "monitor",
+    "price": 149999,
+    "image": "/images/monitor/monitor3.jpeg",
+    "description": "Latest iMac with M3 chip and ultra performance."
+  },
+  {
+    "name": "Xiaomi Mi Curved Gaming Monitor 34",
+    "category": "monitor",
+    "price": 32999,
+    "image": "/images/monitor/monitor4.jpeg",
+    "description": "Ultra-wide curved gaming monitor with high refresh rate."
+  },
+
+  {
+    "name": "LUMINKEY Magger 68 HE",
+    "category": "keyboard",
+    "price": 14999,
+    "image": "/images/keyboard/keyboard1.jpeg",
+    "description": "High-end mechanical keyboard with magnetic switches."
+  },
+  {
+    "name": "Apple Magic Keyboard",
+    "category": "keyboard",
+    "price": 12999,
+    "image": "/images/keyboard/keyboard2.jpeg",
+    "description": "Apple wireless keyboard with smooth typing experience."
+  },
+  {
+    "name": "Apple Magic Keyboard (A1843)",
+    "category": "keyboard",
+    "price": 13999,
+    "image": "/images/keyboard/keyboard3.jpeg",
+    "description": "Magic Keyboard with numeric keypad."
+  },
+  {
+    "name": "NIZ Plum Atom 68",
+    "category": "keyboard",
+    "price": 10999,
+    "image": "/images/keyboard/keyboard4.jpeg",
+    "description": "Compact electro-capacitive mechanical keyboard."
+  },
+
+  {
+    "name": "Apple Magic Mouse (A1296)",
+    "category": "mouse",
+    "price": 7999,
+    "image": "/images/mouse/mouse1.jpeg",
+    "description": "Apple first generation Magic Mouse with multi-touch surface."
+  },
+  {
+    "name": "A4Tech OP-620D",
+    "category": "mouse",
+    "price": 599,
+    "image": "/images/mouse/mouse2.jpeg",
+    "description": "Budget wired mouse with double-click function."
+  },
+  {
+    "name": "Intex Wireless Mouse",
+    "category": "mouse",
+    "price": 499,
+    "image": "/images/mouse/mouse3.jpeg",
+    "description": "Simple wireless mouse for daily use."
+  },
+  {
+    "name": "Logitech MX518",
+    "category": "mouse",
+    "price": 2999,
+    "image": "/images/mouse/mouse4.jpeg",
+    "description": "Classic gaming mouse from Logitech."
+  },
+
+  {
+    "name": "Casio Enticer Men",
+    "category": "watch",
+    "price": 4999,
+    "image": "/images/watches/watch1.jpeg",
+    "description": "Stylish analog watch for men."
+  },
+  {
+    "name": "Fossil Decker CH2601",
+    "category": "watch",
+    "price": 8999,
+    "image": "/images/watches/watch2.jpeg",
+    "description": "Premium chronograph watch from Fossil."
+  },
+  {
+    "name": "Leatherman Tread Tempo",
+    "category": "watch",
+    "price": 24999,
+    "image": "/images/watches/watch3.jpeg",
+    "description": "Multi-tool inspired luxury smartwatch-style watch."
+  },
+  {
+    "name": "Hublot Classic Fusion Chronograph",
+    "category": "watch",
+    "price": 599999,
+    "image": "/images/watches/watch4.jpeg",
+    "description": "Luxury Swiss chronograph watch."
+  },
+
+  {
+    "name": "Apple HomePod Mini",
+    "category": "speakers",
+    "price": 10999,
+    "image": "/images/speaker/speaker1.jpeg",
+    "description": "Smart speaker with Siri integration."
+  },
+  {
+    "name": "Mogolala Q9 Speaker",
+    "category": "speakers",
+    "price": 1999,
+    "image": "/images/speaker/speaker2.jpeg",
+    "description": "Budget Bluetooth speaker with decent sound output."
+  },
+  {
+    "name": "Google Home Mini (H0A)",
+    "category": "speakers",
+    "price": 4999,
+    "image": "/images/speaker/speaker3.jpeg",
+    "description": "Smart speaker powered by Google Assistant."
+  },
+  {
+    "name": "Sony SRS-XB01",
+    "category": "speakers",
+    "price": 2999,
+    "image": "/images/speaker/speaker4.jpeg",
+    "description": "Compact extra bass portable speaker."
+  }
+]
