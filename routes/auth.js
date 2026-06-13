@@ -6,23 +6,21 @@ const jwt = require("jsonwebtoken");
 const User = require("../models/User");
 
 
-// =====================
-// 🟢 REGISTER API
-// =====================
+
 router.post("/register", async (req, res) => {
   try {
     const { email, password } = req.body;
 
-    // check user exists
+   
     const existingUser = await User.findOne({ email });
     if (existingUser) {
       return res.status(400).json({ msg: "User already exists" });
     }
 
-    // hash password
+   
     const hashedPassword = await bcrypt.hash(password, 10);
 
-    // create user
+    
     const newUser = new User({
       email,
       password: hashedPassword,
@@ -38,26 +36,22 @@ router.post("/register", async (req, res) => {
 });
 
 
-// =====================
-// 🟢 LOGIN API
-// =====================
 router.post("/login", async (req, res) => {
   try {
     const { email, password } = req.body;
 
-    // 1. check user exists
     const user = await User.findOne({ email });
     if (!user) {
       return res.status(400).json({ msg: "User not found" });
     }
 
-    // 2. check password
+   
     const isMatch = await bcrypt.compare(password, user.password);
     if (!isMatch) {
       return res.status(400).json({ msg: "Invalid credentials" });
     }
 
-    // 3. create JWT token
+    
     const token = jwt.sign(
       { id: user._id },
       "secretkey123",
@@ -76,9 +70,7 @@ router.post("/login", async (req, res) => {
 });
 
 
-// =====================
-// 🟢 GET LOGGED USER (/me)
-// =====================
+
 router.get("/me", async (req, res) => {
   try {
     const token = req.headers.authorization;

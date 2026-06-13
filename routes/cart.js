@@ -3,13 +3,13 @@ const router = express.Router();
 const jwt = require("jsonwebtoken");
 const User = require("../models/User");
 
-// 🧠 TOKEN CHECK HELPER (optional but clean)
+
 const getUser = async (token) => {
   const decoded = jwt.verify(token, "secretkey123");
   return await User.findById(decoded.id);
 };
 
-// 🛒 ADD TO CART
+
 router.post("/add", async (req, res) => {
   try {
     const token = req.headers.authorization;
@@ -31,7 +31,7 @@ router.post("/add", async (req, res) => {
   }
 });
 
-// 🛒 GET CART
+
 router.get("/", async (req, res) => {
   try {
     const token = req.headers.authorization;
