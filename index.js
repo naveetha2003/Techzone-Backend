@@ -9,6 +9,10 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+const path = require("path");
+
+app.use("/images", express.static(path.join(__dirname, "uploads")));
+
 // Check .env value
 console.log("MONGO_URL =", process.env.MONGO_URL);
 
